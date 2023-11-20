@@ -1,0 +1,248 @@
+  
+    *{
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body{
+      background-color: black;
+      margin-top: 8.5%;
+      font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; color: white;
+
+    }
+  div.container{
+    border: 5px dotted darkred;
+    background-color: darkred;
+  }
+  .cycle-slideshow2 img{
+    max-width: 100%;
+    margin: 0 auto;
+    max-width: 50%;
+    margin-left: 25%;
+    margin-top: 50px;
+  }
+  header{
+    position: fixed;
+    background-color: darkred;
+    text-align: center; 
+    top: 0%;
+    left: 0;
+    width: 100%;
+  }
+  
+  div.left, div.middle, div.right{
+    border: 3px  red;
+    width: 25%;
+  }
+  aside img{
+    max-width: 100%;
+    margin-bottom: 10%;
+    margin-top: 10%;
+  }
+  aside{
+    display: flex;
+    justify-content: space-around;
+
+  }
+
+  nav{
+background-color: white;
+display: flex;
+flex-direction: row;
+flex: 1;
+
+  }
+
+  ul{
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    flex: 4;
+  }
+  li{
+    display: inline-block;
+    width: 200px;
+    border: 2px solid white;
+    line-height: 3em;
+    font-family: Arial, Helvetica, sans-serif;
+    font-variant: small-caps;
+    flex: 1;
+
+  }
+  li a:hover{
+    background-color: darkgrey;
+    
+  }
+  
+  a{
+    color: dark blue;
+    text-decoration: none;
+    display: block;
+
+  }
+  footer{
+    background-color: black;
+    text-align: center;
+    margin-bottom: 0.5cm;
+  }
+  .cycle-slideshow img{
+    max-width: 50%;
+    margin-left: 25%;
+    margin-top: 20px;
+  }
+
+  div.containerss{
+    border: 5px double burlywood;
+    
+  }
+  .containerb{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    border-style: inset;
+    margin-bottom: 5%;
+    margin-top: 5%;
+  }
+  .container2{
+    text-align: center;
+    font-size: xx-large;
+    font-family: fantasy;
+    margin-top: 2%;
+    color: yellow;
+  }
+
+
+
+   
+
+  
+/*======================
+
+Media Queries
+
+======================*/
+@media screen and (min-width: 420px) and (max-width: 490px){
+    body{
+      background-color: black;
+    }
+  
+  header h1{
+      padding: .25em;
+      text-align: center;
+      font-size: small;
+    }
+    nav{
+      font-size: 0.6em;
+      width: 80%;
+      margin: 0 auto;
+    }
+    nav ul{
+      margin: 0;
+      padding: .1em;
+    }
+    nav li{
+      background-color: red;
+      border-radius: 1em;
+      list-style-type: none;
+      width: 100%;
+      margin-bottom: 1em;
+      text-align: center;
+    }
+    .header-img{
+      margin-top: 10em;
+      height: 10% ;
+    }
+    footer{
+      font-size: 50%;
+
+      }
+      
+}
+    
+/*tablets*/
+
+@media screen and (min-width: 560px) and (max-width: 768px) {
+      header.header, ul.nav{
+        display: flex;
+      }
+      
+      header h1{
+        padding: .10em;
+        text-align: center;
+        font-size: small;
+      }
+      nav{
+        font-size: 0.9em;
+        width: 80%;
+        margin: 0 auto;
+      }
+      nav ul{
+        margin: 0;
+        padding: .1em;
+      }
+      nav li{
+        background-color: black;
+        border-radius: 1em;
+        list-style-type: none;
+        width: 100%;
+        margin-bottom: 1em;
+        text-align: center;
+        font-size: smaller;
+      }
+      footer{
+        font-size: x-small;
+      }
+}
+
+/*ios tablets*/
+
+@media screen and (min-width: 790px) and (max-width: 850px) {
+
+  body{
+    background-color: black;
+  }
+
+header h1{
+    padding: .25em;
+    text-align: center;
+    font-size: x-large;
+  }
+  nav{
+    font-size: medium;
+    width: 80%;
+    margin: 0 auto;
+  }
+  nav ul{
+    margin: 0;
+    padding: .1em;
+  }
+  nav li{
+    background-color: red;
+    border-radius: 1em;
+    list-style-type: none;
+    width: 100%;
+    margin-bottom: 1em;
+    text-align: center;
+  }
+  .header-img{
+    margin-top: 10em;
+    height: 10% ;
+  }
+  footer{
+    font-size: 50%;
+
+    }
+    
+}
+
+
+
+    
+  
+
+
+
+
+
+  
+
